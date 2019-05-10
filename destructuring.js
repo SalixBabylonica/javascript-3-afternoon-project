@@ -22,20 +22,21 @@ var carDetails = {
 */
 
 //Code Here
-
+var {color,make,model,year}= carDetails;
 
 
 ////////// PROBLEM 2 //////////
 
 /*
   In the function below named greeting, it is receiving an object as a parameter. 
-  Use object destructuring to save the object properties to new variables. 
+  Use object destructuring to save the object properties to new vjariables. 
   The property names are firstName, lastName, and title.
 */
 
 function greeting( obj ) {
   //Code Here
-  
+  var {title,firstName,lastName}= obj
+
   // Do not edit the code below.
   return 'Hello, ' + title + ' ' + firstName + ' ' + lastName + '!';
   // Do not edit the code above.
